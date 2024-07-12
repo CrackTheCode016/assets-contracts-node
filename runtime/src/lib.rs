@@ -282,22 +282,23 @@ construct_runtime!(
         // Monetary stuff.
         Balances: pallet_balances = 10,
         TransactionPayment: pallet_transaction_payment = 11,
+        Assets: pallet_assets = 12,
 
         // Governance
-        Sudo: pallet_sudo = 15,
+        Sudo: pallet_sudo = 16,
 
         // Collator support. The order of these 4 are important and shall not change.
-        Authorship: pallet_authorship = 20,
-        CollatorSelection: pallet_collator_selection = 21,
-        Session: pallet_session = 22,
-        Aura: pallet_aura = 23,
-        AuraExt: cumulus_pallet_aura_ext = 24,
+        Authorship: pallet_authorship = 21,
+        CollatorSelection: pallet_collator_selection = 22,
+        Session: pallet_session = 23,
+        Aura: pallet_aura = 24,
+        AuraExt: cumulus_pallet_aura_ext = 25,
 
         // XCM helpers.
-        XcmpQueue: cumulus_pallet_xcmp_queue = 30,
-        PolkadotXcm: pallet_xcm = 31,
-        CumulusXcm: cumulus_pallet_xcm = 32,
-        MessageQueue: pallet_message_queue = 33,
+        XcmpQueue: cumulus_pallet_xcmp_queue = 31,
+        PolkadotXcm: pallet_xcm = 32,
+        CumulusXcm: cumulus_pallet_xcm = 33,
+        MessageQueue: pallet_message_queue = 34,
 
         // Contracts
         Contracts: pallet_contracts = 40,
