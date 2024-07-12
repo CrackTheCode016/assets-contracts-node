@@ -6,6 +6,15 @@ This project is a fork of the [Base Parachain Template](https://github.com/r0gue
 
 It is used to generate parachains using [Pop CLI](https://github.com/r0gue-io/pop-cli), an all-in-one tool for Polkadot development.
 
+## Running
+
+Make sure you have [Pop CLI](https://github.com/r0gue-io/pop-cli) installed, then run the following:
+
+```sh
+cd assets-contracts-node
+pop up parachain --file network.toml
+```
+
 ## Next Steps
 
 💥 Learn more about Pop CLI [here](https://learn.onpop.io/pop/v/pop-cli).
